@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <header>
+            <img class= "logoHeader"  src="imagens/logo_alura.png" alt="Logo da alura">
+        </header>
+    </div>
+
+    <main >
+        <div class="main">
+            <div class="esquerda">
+                <textarea id="texto_entrada" class="textoEntrada" placeholder="Digite seu texto aqui..."></textarea>
+                <div class="esquerdaFooter">
+                    <img src="imagens/exclamacao.png" alt="Simbolo de exclamação">
+                    <span class="infoEsquerda">Apenas letras minúsculas e sem acento</span>
+                    <div class="botoesEsquerda">
+                        <button id="botaoEncriptar" class="btn-encriptar">Encriptar</button>
+                        <button id="botaoDesencriptar" class="btn-desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+
+    
+            <div id="direita" class="direita ajustar">
+                <img id="boneco" class="imagemBoneco" src="imagens/boneco.png" alt="Ilustração de uma pessoa ajoelhada">
+                <div>
+                    <textarea id="mensagem_final" class="mensagemFinal ajustar" placeholder="Nenhuma mensagem foi   encontrada"></textarea>
+                    <p id="info_direita" class="infoDireita">Digite o texto que deseja encriptar ou desencriptar</p>
+                </div>
+                <button id="botaoCopiar" class="btn-copiar">Copiar</button>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Alcir Guilherme.</p>
+        <div class="redesSocais">
+            <a href="http://www.linkedin.com/in/alcir-guilherme" class="redeSocial"> Linkedin</a>
+            <a href="https://github.com/" class="redeSocial">Github</a>
+        </div>
+        
+    </footer>
+    <script src="scripts/script.js"></script>
+
+</body>
+</html>
